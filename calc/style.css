@@ -1,0 +1,150 @@
+.calculator{
+    padding: 20px;
+position: relative;
+width: 329px;
+height: 658px;
+border-radius: 20px;
+background: linear-gradient(145.27deg, #2E2C2C -4.62%, #0B0A0A 64.58%);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttoncontainer{
+    background-size: 329px 426px;
+    position: absolute;
+    width: 329px;
+    height: 426px;
+    left: 0px;
+    top: 233px;
+    background-image: url(https://sun9-25.userapi.com/impg/aLtpu7O7Mz8OX7n2d3sRq3Kh-EP1xnD7r2P2CA/L1u8gw1J_NQ.jpg?size=411x532&quality=96&sign=89480633009353dfb058bb9ba51e5eeb&type=album) ;
+    border-radius: 12px 12px 12px 12px; 
+    
+}
+
+.up{
+    width: 329px;
+    height: 25.12px; 
+}
+
+.buttoncontainerOne{
+    padding: 20px;
+    display: grid;
+    grid-gap: 20.96px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+   
+}
+
+.item{
+    grid-area: 20px ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    box-shadow: -8px -8px 19.2px rgba(255, 255, 255, 0.6), 8px 8px 19.2px rgba(174, 174, 192, 0.2);
+    border-radius: 16px; 
+}
+.item{
+font-family: Oswald;
+font-style: normal;
+font-weight: 600;
+font-size: 28.8px;
+line-height: 42.4px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #728AB7;
+}
+
+.item:hover {
+    cursor: pointer;
+    
+    box-shadow: -8px -8px 19.2px rgba(255, 255, 255, 0.6), 8px 8px 19.2px rgba(91, 91, 102, 0.2);
+  }
+ 
+
+.pm{
+    background-image: url(https://psv4.userapi.com/c534536/u269068495/docs/d30/932b17731072/Group_29_3.png?extra=JUypAC-eANv-1Z--oP07X_j7hUzsI-GwqKRGS2JVoYa_p08yxpq3CMZUYOAzHAtXA8Yx6biPtL3gzz5BhKKEIbn60isrJ4yNCofaO4bGiJGMA_aS7asgwHh6CCutx_e-flNh6CuHubPo8Jfwgw4VmkII);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 16px; 
+    background-size: 56px 56px;
+
+
+}
+.persent{
+
+    background-image: url(https://psv4.userapi.com/c534536/u269068495/docs/d28/9cc3d3a4ac54/Group_28.png?extra=8vJMVX98dCpEwboAmX_unojb9L2uTkqeWwQMooJxMLbRE5P74ssCS2d83QVuD7JMLbxjqkOsSQRy8xfIDof_AMoppDVGAP88VkUpk8peypt-jLM_y3FLH_raH9x_6hYGPGsyT9hqfu6i6u_lb-HwUOn3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 16px; 
+    background-size: 56px 56px;
+}
+.ravno {
+    color: white;
+    grid-column: 4;
+    background: #2DD3C5;
+
+}
+.delenie{
+    color: #745FF2;
+}
+.umnogenie{
+    color: #745FF2;
+}
+
+.minus{
+    color: #745FF2;
+}
+
+.dot {
+    grid-column: 3;
+    grid-row: 5;
+}
+.plus{
+    color: #745FF2;
+}
+
+.zero {
+
+    
+    color: #728AB7;
+    left: 20px;
+    width: 132px;
+    height: 56px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.value{
+
+    position: absolute;
+    width: 281px;
+    height: 55px;
+    top: 155px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    background: none;
+    border: none;
+    color: #fff8f8;
+}
+
+.valuedva{
+    
+    top: 90px; 
+}
