@@ -133,7 +133,7 @@ function mathemathik(a, b, params) {
         case "-":
             return a - b;
         case "*":
-            return a * b;
+            return ((a*1e6)*(b*1e6))/1e12;
         case "/":
                 return a / b;
             
